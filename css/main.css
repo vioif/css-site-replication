@@ -7,11 +7,25 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: linear-gradient (#1c5380)
+  background: white;
 }
 
-.headergrouping {
+.headcolorfade{
+  width: 100%;
   height: 300px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+main {
+  width: 850px;
+  position: relative;
+  top: -120px
+  margin: 0 auto;
+  overflow: hidden;
+}
+.headergrouping {
+  height: 30px;
   background: linear-gradient (#1c5380);
   position: static;
 }
@@ -23,11 +37,27 @@ body {
 }
 
 .homebutton {
-  background: linear-gradient (#1c5380);
+  background: ##06365f;
   border: 1px solid #1c5380;
   float:right;
   display: inline-block;
   clear: both;
+  width: 30px;
+  font-size: 14px;
+  margin-top: 24px;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.phones {
+  width: 300px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 1em;
+  color: #1c5380;
+  float: right;
 }
 
 h3 {
@@ -38,16 +68,31 @@ h3 {
 
 p {
   color:black;
+  margin: 1em;
+  float: right;
 }
 
 .buttons {
   float:left;
-  display: inline-block;
+  width: 48%;
 }
 
 .frame {
-  float: right;
   display: inline-block;
+  clear: both;
+  float: right;
+  width: 500px;
+  padding-top: 5px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.container {
+  float: right;
+  clear: both;
+  width: 400px;
+  padding-top: 5px;
+  position: relative;
 }
 
 .navbar {
@@ -60,6 +105,7 @@ p {
   display: inline-block;
   margin-right: 10px;
   line-height: 60px;
+  text-decoration: none;
 }
 
 .phone {
@@ -67,14 +113,26 @@ p {
   display: inline-block;
 }
 
-a {
+footer{
+  display: inline-block;
+  margin: 0 auto;
+  clear: both;
+  width: 850px;
+}
+
+ul {
+  display: inline;
+  float: left;
+  margin-right: 25px;
+}
+
+li {
+  display: inline;
+  list-style: none;
   text-transform: uppercase;
   text-decoration: none;
   text-decoration-color: #1c5380;
   list-style: none;
-}
-
-footer{
-  display: inline-block;
-  margin: 0 auto;
+  font-size: 12px;
+  font-weight: bold;
 }
