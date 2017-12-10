@@ -18,11 +18,12 @@ body {
 }
 
 main {
-  width: 850px;
+  width: 926px;
   position: relative;
   top: -120px
   margin: 0 auto;
   overflow: hidden;
+  display: inline-block;
 }
 .headergrouping {
   height: 30px;
@@ -31,9 +32,9 @@ main {
 }
 
 .instagram-logo {
-  position: relative;
   margin: auto;
   float: right;
+  width: 100%
 }
 
 .homebutton {
@@ -51,11 +52,12 @@ main {
 
 .phones {
   width: 300px;
+  float: left;
 }
 
 h2 {
   font-size: 24px;
-  margin: 1em;
+  margin: 0 auto;
   color: #1c5380;
   float: right;
 }
@@ -68,7 +70,7 @@ h3 {
 
 p {
   color:black;
-  margin: 1em;
+  margin: 0 auto;
   float: right;
 }
 
@@ -81,7 +83,8 @@ p {
   display: inline-block;
   clear: both;
   float: right;
-  width: 500px;
+  width: 457px;
+  height: 30px;
   padding-top: 5px;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
@@ -99,13 +102,13 @@ p {
   padding: 10px;
   float: left;
   display: inline-block;
+  text-decoration: none;
 }
 
 .nav-item {
   display: inline-block;
   margin-right: 10px;
-  line-height: 60px;
-  text-decoration: none;
+  line-height: 60px
 }
 
 .phone {
